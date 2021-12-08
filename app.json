@@ -1,0 +1,5 @@
+{
+  "name": "proximustestapp",
+  "displayName": "proximustestapp",
+  "ios": {"userInterfaceStyle": "automatic"}
+}

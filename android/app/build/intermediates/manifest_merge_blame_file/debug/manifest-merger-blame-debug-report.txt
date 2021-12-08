@@ -1,0 +1,203 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.proximustestapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/media/akshay/Akshay/proximustestapp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/media/akshay/Akshay/proximustestapp/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:6:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:7:5-81
+15-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:8:5-70
+16-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:8:22-68
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:9:5-65
+17-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:9:22-63
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.54.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.54.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+19
+20    <uses-feature
+20-->[:react-native-camera] /media/akshay/Akshay/proximustestapp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+21        android:name="android.hardware.camera"
+21-->[:react-native-camera] /media/akshay/Akshay/proximustestapp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+22        android:required="false" />
+22-->[:react-native-camera] /media/akshay/Akshay/proximustestapp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+23    <uses-feature
+23-->[:react-native-camera] /media/akshay/Akshay/proximustestapp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[:react-native-camera] /media/akshay/Akshay/proximustestapp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+25        android:required="false" />
+25-->[:react-native-camera] /media/akshay/Akshay/proximustestapp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+26
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+27-->[:react-native-community_netinfo] /media/akshay/Akshay/proximustestapp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+27-->[:react-native-community_netinfo] /media/akshay/Akshay/proximustestapp/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.android.gms:play-services-iid:17.0.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/61e3e279020c351517b511e7d56d43f0/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+28-->[com.google.android.gms:play-services-iid:17.0.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/61e3e279020c351517b511e7d56d43f0/play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.android.installreferrer:installreferrer:1.1.2] /home/akshay/.gradle/caches/transforms-2/files-2.1/744c11701aa7144a8d6a8e89bcdad6bd/installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+29-->[com.android.installreferrer:installreferrer:1.1.2] /home/akshay/.gradle/caches/transforms-2/files-2.1/744c11701aa7144a8d6a8e89bcdad6bd/installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+30
+31    <application
+31-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:12:5-31:19
+32        android:name="com.proximustestapp.MainApplication"
+32-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:13:7-38
+33        android:allowBackup="false"
+33-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:17:7-34
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.6.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/b298a6449b929e26b4e6c009b0de88b9/core-1.6.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:15:7-41
+37        android:label="@string/app_name"
+37-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:14:7-39
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:16:7-52
+39        android:theme="@style/AppTheme"
+39-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:18:7-38
+40        android:usesCleartextTraffic="true" >
+40-->/media/akshay/Akshay/proximustestapp/android/app/src/debug/AndroidManifest.xml:7:18-53
+41        <activity
+41-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:19:7-29:18
+42            android:name="com.proximustestapp.MainActivity"
+42-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:20:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+43-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:22:9-86
+44            android:label="@string/app_name"
+44-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:21:9-41
+45            android:launchMode="singleTask"
+45-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:23:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:24:9-51
+47            <intent-filter>
+47-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:25:9-28:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:26:13-65
+48-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:26:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:27:13-73
+50-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:27:23-70
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+53-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:30:7-84
+53-->/media/akshay/Akshay/proximustestapp/android/app/src/main/AndroidManifest.xml:30:17-81
+54
+55        <service
+55-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/3d231125cdc7dbce94ff62aee800c60f/play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:9:9-15:19
+56            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+56-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/3d231125cdc7dbce94ff62aee800c60f/play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:10:13-91
+57            android:directBootAware="true"
+57-->[com.google.mlkit:common:17.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/08bd2ae6fb661a07872494c6d88f028d/common-17.2.0/AndroidManifest.xml:17:13-43
+58            android:exported="false" >
+58-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/3d231125cdc7dbce94ff62aee800c60f/play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:11:13-37
+59            <meta-data
+59-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/3d231125cdc7dbce94ff62aee800c60f/play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+60                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+60-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/3d231125cdc7dbce94ff62aee800c60f/play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/3d231125cdc7dbce94ff62aee800c60f/play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+62            <meta-data
+62-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/35648f3b4f9a2f8b1c2c0654de39912b/play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+63                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+63-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/35648f3b4f9a2f8b1c2c0654de39912b/play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/35648f3b4f9a2f8b1c2c0654de39912b/play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+65            <meta-data
+65-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/f2a0d4589e2463e06263aebbdb53ecf3/play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+66                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+66-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/f2a0d4589e2463e06263aebbdb53ecf3/play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/f2a0d4589e2463e06263aebbdb53ecf3/play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+68            <meta-data
+68-->[com.google.mlkit:vision-common:16.5.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/5d0c8f8c8a3727ea9e43c863cc54f144/vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+69                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+69-->[com.google.mlkit:vision-common:16.5.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/5d0c8f8c8a3727ea9e43c863cc54f144/vision-common-16.5.0/AndroidManifest.xml:13:17-124
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.mlkit:vision-common:16.5.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/5d0c8f8c8a3727ea9e43c863cc54f144/vision-common-16.5.0/AndroidManifest.xml:14:17-82
+71            <meta-data
+71-->[com.google.mlkit:common:17.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/08bd2ae6fb661a07872494c6d88f028d/common-17.2.0/AndroidManifest.xml:20:13-22:85
+72                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+72-->[com.google.mlkit:common:17.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/08bd2ae6fb661a07872494c6d88f028d/common-17.2.0/AndroidManifest.xml:21:17-120
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.mlkit:common:17.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/08bd2ae6fb661a07872494c6d88f028d/common-17.2.0/AndroidManifest.xml:22:17-82
+74        </service>
+75
+76        <provider
+76-->[com.google.mlkit:common:17.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/08bd2ae6fb661a07872494c6d88f028d/common-17.2.0/AndroidManifest.xml:9:9-13:38
+77            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+77-->[com.google.mlkit:common:17.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/08bd2ae6fb661a07872494c6d88f028d/common-17.2.0/AndroidManifest.xml:10:13-78
+78            android:authorities="com.proximustestapp.mlkitinitprovider"
+78-->[com.google.mlkit:common:17.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/08bd2ae6fb661a07872494c6d88f028d/common-17.2.0/AndroidManifest.xml:11:13-69
+79            android:exported="false"
+79-->[com.google.mlkit:common:17.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/08bd2ae6fb661a07872494c6d88f028d/common-17.2.0/AndroidManifest.xml:12:13-37
+80            android:initOrder="99" />
+80-->[com.google.mlkit:common:17.2.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/08bd2ae6fb661a07872494c6d88f028d/common-17.2.0/AndroidManifest.xml:13:13-35
+81
+82        <service
+82-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/akshay/.gradle/caches/transforms-2/files-2.1/e84832a8e4912ec4ba9ea5ce7dac481c/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+83            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+83-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/akshay/.gradle/caches/transforms-2/files-2.1/e84832a8e4912ec4ba9ea5ce7dac481c/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+84            android:exported="false" >
+84-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/akshay/.gradle/caches/transforms-2/files-2.1/e84832a8e4912ec4ba9ea5ce7dac481c/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+85            <meta-data
+85-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/akshay/.gradle/caches/transforms-2/files-2.1/e84832a8e4912ec4ba9ea5ce7dac481c/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+86                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+86-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/akshay/.gradle/caches/transforms-2/files-2.1/e84832a8e4912ec4ba9ea5ce7dac481c/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+87                android:value="cct" />
+87-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/akshay/.gradle/caches/transforms-2/files-2.1/e84832a8e4912ec4ba9ea5ce7dac481c/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+88        </service>
+89        <service
+89-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/akshay/.gradle/caches/transforms-2/files-2.1/5007a1042bc2d4bd1fa920dae29fed96/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+90            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+90-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/akshay/.gradle/caches/transforms-2/files-2.1/5007a1042bc2d4bd1fa920dae29fed96/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+91            android:exported="false"
+91-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/akshay/.gradle/caches/transforms-2/files-2.1/5007a1042bc2d4bd1fa920dae29fed96/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+92            android:permission="android.permission.BIND_JOB_SERVICE" >
+92-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/akshay/.gradle/caches/transforms-2/files-2.1/5007a1042bc2d4bd1fa920dae29fed96/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+93        </service>
+94
+95        <receiver
+95-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/akshay/.gradle/caches/transforms-2/files-2.1/5007a1042bc2d4bd1fa920dae29fed96/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+96            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+96-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/akshay/.gradle/caches/transforms-2/files-2.1/5007a1042bc2d4bd1fa920dae29fed96/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+97            android:exported="false" />
+97-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/akshay/.gradle/caches/transforms-2/files-2.1/5007a1042bc2d4bd1fa920dae29fed96/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+98
+99        <activity
+99-->[com.google.android.gms:play-services-base:17.6.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/d164727910f60ff4e3d59f7e84b6fdb3/play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+100-->[com.google.android.gms:play-services-base:17.6.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/d164727910f60ff4e3d59f7e84b6fdb3/play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-base:17.6.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/d164727910f60ff4e3d59f7e84b6fdb3/play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-base:17.6.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/d164727910f60ff4e3d59f7e84b6fdb3/play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+103
+104        <meta-data
+104-->[com.google.android.gms:play-services-basement:17.6.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/1e3c4ce8928367ff710d5f4bc7bea4d4/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+105            android:name="com.google.android.gms.version"
+105-->[com.google.android.gms:play-services-basement:17.6.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/1e3c4ce8928367ff710d5f4bc7bea4d4/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+106            android:value="@integer/google_play_services_version" />
+106-->[com.google.android.gms:play-services-basement:17.6.0] /home/akshay/.gradle/caches/transforms-2/files-2.1/1e3c4ce8928367ff710d5f4bc7bea4d4/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+107    </application>
+108
+109</manifest>
